@@ -7,6 +7,20 @@
     text-align: center;
 }
 
+.filters {
+    width: 100%;
+    text-align: center;
+    background: #2A4D7D;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.filter {
+    margin-left: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
 ul {
     font-size: 120%;
     font-weight: bold;
@@ -15,14 +29,22 @@ ul {
 }
 
 li {
-    text-decoration: none;    
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px;
+    width: 160px;
+    height: 200px;
+    border: #2A4D7D 1px solid;
 }
 
 .search {
-    text-align: center;
-    margin: 50px;
     width: 100%;
     height: 100px;
+    text-align: center;
+}
+
+.search-form {
+    margin: 0 auto;
 }
 
 .form-input {
@@ -32,6 +54,7 @@ li {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 1.1rem;
+    text-decoration: none;
 }
 
 .form-submit {
@@ -41,4 +64,8 @@ li {
     font-size: 1.1rem;
     color: #fff;
     margin-left: 10px;
+}
+
+input:focus {
+    outline:none;
 }
